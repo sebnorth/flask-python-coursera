@@ -1,0 +1,38 @@
+W module zostały postawione pewne problemy grafowe. <a href="http://storage.googleapis.com/codeskulptor-alg/alg_phys-cite.txt"> Pod linkiem </a> znajduje się tekstowa reprezentacja grafu cytowań prac naukowych z pewnego obszaru nauki. 
+
+W programach wykorzytujemy reprezentacje grafów w postaci słowników.  Krawędź w grafie cytowań łączy dwa artykuły i oraz j jeśli artykuł i cytuje artykuł j. Graf ten ma 27770 wierzchołków i 352807 krawędzi. Na rysunku <a href="/static/rysunek1_1.png">rysunek_1</a> przedstawiony jest wykres na skali logarytmicznej rozkładu stopni wejściowych węzłów grafów cytowań. Na rysunku <a href="/static/rysunek1_2.png">rysunek_2</a> przedstawiony jest podobny wykres dla grafu losowego utworzonego w oparciu o dany w zadaniu algorytm. 
+
+Celem projektu była m.in. analiza dlaczego te grafy są do siebie podobne. 
+
+Wygenerowanie wykresu grafu cytowań <a href="/static/grafcytowan_1.py">grafcytowan_1.py</a>.
+
+Wygenerowanie wykresu grafu losowego <a href="/static/grafcytowan_2.py">grafcytowan_2.py</a>.
+
+W drugim module rozważane były dalej zagadnienia grafowe. Tym razem chodziło o zbadanie spójności trzech klas grafów o losowo generowanej strukturze pod wpływem 'ataków' polegających na usuwaniu określonych wierzchołków. Pojawiące się słówko resilience związane jest z wielkością największej składowej spójności grafu po usunięciu pewnej liczby wierzchołków. Pierwsza część projektu polegała na napisaniu  <a href="/static/module2_project.py" target="_blank">kilku funkcji dla grafów nieskierowanych</a>. Instruktorzy udostępnili <a href="/static/alg_application2_provided.py" target="_blank"> pomocniczy plik</a> który należało zaimportować. Po drodze pojawił się algorytm przechodzenia grafu BFS. Dalsza część projektu to analiza porównawcza podatności trzech klas grafów na usuwanie ciągów wierzchołków. Za miarę tej podatności w pewnym momencie przyjęto wielkość różnicy między największą składową spójności w grafie po usunięciu 20% jego wierzchołków(samo usuwanie też było ściśle określone - funkcja tageted_order) a liczbą pozostałych wierzchołków. Jeśli ta różnica nie przekraczała 25% liczby pozostałych wierzchołków to taki graf uznano za resilient. 
+
+Wygenerowanie wykresu nr 1 <a href="/static/wykres2_1.py" target="_blank">wykres2_1_kod.py</a> oraz sam <a href="/static/rysunek2_1.png" target="_blank">wykres</a>. 
+
+Wygenerowanie wykresu nr 2 <a href="/static/wykres2_2.py" target="_blank">wykres2_2_kod.py</a> oraz sam <a href="/static/rysunek2_2.png" target="_blank">wykres</a>.
+
+Wygenerowanie wykresu nr 3 <a href="/static/wykres2_3.py" target="_blank">wykres2_3_kod.py</a> oraz sam <a href="/static/rysunek2_3.png" target="_blank">wykres</a>.
+
+
+
+Tematem trzeciego modułu była klasteryzacja danych, czasami nazywana analizą skupień danych. W oparciu o przygotowane przez instruktorów materiały należało zaimplementować metodę hierarchiczną oraz k-średnich klasteryzacji danych. Drugą część moduła stanowiła analiza tych algorytmów dla różnej wielkości zestawów danych. Danymi były 5-elementowe tuple informacji o ryzyku zachorowań na raka w hrabstwach USA. Analiza polegała na wizualizacji danych i wyciągnięciu odpowiednich wniosków. 
+
+<a href="/static/alg_cluster.py" target="_blank">plik instruktorów alg_cluster</a>, <a href="/static/alg_clusters_matplotlib.py" target="_blank">plik instruktorów służący do wizualizacji danych na mapie USA</a> 
+
+<a href="/static/module3_project.py" target="_blank">zadania z pierwszej części modułu</a> 
+
+zadania z drugiej części modułu: 
+wizualizacja do pytania <a href="/static/rysunek3_1.png" target="_blank">Question1</a> , <a href="/static/rysunek3_2.png" target="_blank">Question2</a> , <a href="/static/rysunek3_3.png" target="_blank">Question3</a> , <a href="/static/rysunek3_5.png" target="_blank">Question5</a> , <a href="/static/rysunek3_6.png" target="_blank">Question6</a> , <a href="/static/rysunek3_8.png" target="_blank">Question8</a>  dla jednego z zestawów danych
+
+<a href="/static/alg_project3_viz.py" target="_blank">Wygenerowanie wizualizacji </a>
+Podsumowanie trylogii kursów stanowił czwarty moduł w którym rozważane było zagadnienie z pogranicza biologii, kombinatoryki i informatyki. Krótko mówiąc dla dwóch danych dwóch słów nad pewnym alfabetem(chodziło o pewne ciągi złożone z aminokwasów) należało znaleść najkorzystniejsze doposowanie, gdzie znaczenie słów dopasowanie oraz korzystność dopasowania zostały oczywiście precyznie określone. Problem został rozwiązany w oparciu o programowanie dynamiczne - <a href="/static/module4_project.py" target="_blank">plik</a>. W oparciu o ten zestaw funkcji należało dalej odpowiedzieć na pytania stricte biologiczne - <a href="/static/alg_application4_provided.py" target="_blank">plik</a>. Niektóre pytania wymagały znajomości podstaw statystyki matematycznej.  
+
+
+
+
+
+
+

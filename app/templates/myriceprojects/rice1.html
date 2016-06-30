@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}Rice 1{% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <h3>Kurs podstawowy</h3>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Wstęp</a></li>  
+    {% for item in dictRiceList1 %}
+    <li><a data-toggle="tab" href="#{{item[2]}}">{{item[0]}}</a></li>
+    {% endfor %}
+  </ul>
+
+  <div class="tab-content">
+    {% for item in dictRiceList1 %}
+    <div id="{{item[2]}}" class="tab-pane fade">
+      <h3>{{item[0]}}</h3>
+      <p>{{item[1] | nl2br }}</p>
+      <p></p><a href="/static/{{item[2]}}.py" target="_blank">{{item[2]}}.py - sam kod</a></p>
+    </div>
+    {% endfor %}
+    <div id="home" class="tab-pane fade in active">
+      <h3>Krótki przewodnik po kursach.</h3>
+      <p>Każdy z trzech kursów był podzielony na tygodnie, każdy nowy tydzień przynosił pewną liczbę zadań do wykonania. Zazwyczaj(pierwsze dwa kursy) tydzień kursu to tzw. praca domowa plus miniprojekt. Prace domowe których tu nie przedstawiam to były quizy gdzie również było trzeba pisać programy choć o wiele krótsze niż w miniprojektach, rozwiązywać proste problemy matematyczne, odpowiadać na pytania związane z wykładem itd. Prace te stanowiły wstęp do niekiedy wymagających miniprojektów. </p>
+      <p>Kurs nr 1 zawierał dziewięć miniprojektów. Po kliknięciu na zakładkę z danym projektem widoczny jest link prowadzący do kodu programu oraz narzędzia Codeskulptor. Aby uruchomić program w lewym górnym rogu interfejsu tego narzędzia nalezy klinąć trójkącik - <img src="/static/images/trojkacik.jpg">. Ponowne uruchomienie - przycisk reset <img src="/static/images/reset.jpg"> i następnie trójkącik - <img src="/static/images/trojkacik.jpg">. Przycisk reset czyści konsolę.</p>
+      <p>Projekty były oceniane metodą <b>peer evaluation</b>. </p>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

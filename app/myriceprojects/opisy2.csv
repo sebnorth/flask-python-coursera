@@ -1,0 +1,44 @@
+<b>2048</b> to projekt polegający na napisaniu gry polegającej na takim przesuwaniu kafelków z liczbami i umiejętnym podwajaniu na nich wartości aby uzyskać liczbę 2048. Zmieniając parametry konstruktora klasy <b>TwentyFortyEight</b> można grać nie tylko na planszy o rozmiarze 4x4.
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_OVQsGnLRnY_0.py">2048 - do uruchomienia w Codeskulptor</a>
+
+
+<b>Cookie Clicker</b> polegał na stworzeniu generatora ciasteczek(takich do jedzenia) a właściwie ich licznika. Gracz wykonując kliknięcia zbiera ciasteczka ale mając ich odpowiednią liczbą dokonuje zakupu przedmiotów które zmieniają współczynnik "cookies per second" (CPS). Chodzi o obranie najlepszej strategii klikania. Więcej o tej grze <a target="_blank" href="http://orteil.dashnet.org/cookieclicker/">pod linkiem</a>.
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_I2KoWyp8lN_0.py">Cookie Clicker - do uruchomienia w Codeskulptor</a>
+
+
+<b>Tic-Tac-Toe (Monte Carlo)</b> polegał na napisaniu symulatora do gry w kółko i krzyżyk używając metody Monte Carlo do obliczania ruchów. Odkomentowanie funkcji <b>provided.play_game</b> spowoduje symulację w konsoli, obaj gracze są komputerem. Odkomentowanie funkcji <b>poc_ttt_gui.run_gui</b> umożliwi grę z komputerem w nowym oknie. 
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_mYUkgmN5qo_0.py">Tic-Tac-Toe (Monte Carlo) - do uruchomienia w Codeskulptor</a>
+
+
+W projekcie <b>Yahtzee</b> chodziło o napisanie symulacji jednego ruchu(wyboru kostek którymi NIE rzucamy) w grze <a target="_blank" href="https://en.wikipedia.org/wiki/Yahtzee#Upper_section">Yahtzee</a> który dawałby największą wartość oczekiwaną na końcu gry. Projekt zakładał ograniczenie się do tzw górnej tabeli Yahtzee. Najtrudniejsze w tym projekcie było napisanie funkcji które generowały struktury kombinatoryczne. 
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_mYUkgmN5qo_1.py">Yahtzee - do uruchomienia w Codeskulptor</a>
+
+
+<b>Zombie Apocalypse (BFS)</b> to symulator na dwuwymiarowej planszy zachowań grupy ludzi i grupy zombies. Znając pozycje przeciwników i wolne pola program oblicza ruch przy użyciu znanego dla grafów algorytmu BFS. Po uruchomieniu w Codeskulptorze klikamy w białe pole okna ustawiając przeszkody, następnie zmieniamy przyciskiem przeszkody na ludzi i zombich, ustawiając odpowiednio zielone i czerwone kwadraciki. Po ustawieniu postaci dostępne są przyciski ucieczki ludzi i pogoni zombich. 
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_mYUkgmN5qo_2.py">Zombie Apocalypse (BFS) - do uruchomienia w Codeskulptor</a>
+
+
+<b>Word Wrangler</b> - gra polegająca na układaniu słów z liter które pochodzą z danego słowa(to słowo możemy zmienić w czasie gry). Układane słowa pojawią się zamiast gwiazdek o ile występują w słowniku który wcześniej jest ładowany z pliku. Żeby rozpocząć grę należy odkomentować na dole funkcję <b>run()</b>. 
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_czTgru8J1z_0.py">Word Wrangler - do uruchomienia w Codeskulptor</a>
+
+
+<b>Tic-Tac-Toe (based on Minimax method)</b> polegał na napisaniu symulatora do gry w kółko i krzyżyk używając metody Minimax do obliczania ruchów. Podobnie jak w projekcie Tic-Tac-Toe (Monte Carlo) należy odkomentować odpowiednie funkcje. 
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_czTgru8J1z_1.py">Tic-Tac-Toe (based on Minimax method) - do uruchomienia w Codeskulptor</a>
+
+
+<b>The Fifteen Puzzle</b> polegał na napisaniu solvera dla <a target="_blank" href="https://en.wikipedia.org/wiki/15_puzzle">układanka The Fifteen Puzzle</a>. Zmieniając parametry konstruktora klasy <b>Puzzle</b> solver operuje nie tylko na planszy o rozmiarze 4x4. Z teorii wynika że nie każda plansza jest do ułożenia. 
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_czTgru8J1z_2.py">The Fifteen Puzzle - do uruchomienia w Codeskulptor</a>
+
+
+
+
+
+

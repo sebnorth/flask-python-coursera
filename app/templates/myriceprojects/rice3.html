@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Rice 3{% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <h3>Kurs zaaawansowany</h3>
+  <ul class="nav nav-tabs">
+	<li class="active"><a data-toggle="tab" href="#home">Wstęp</a></li>  
+    {% for item in dictRiceList3 %}
+    <li><a data-toggle="tab" href="#{{item[2]}}">{{item[0]}}</a></li>
+    {% endfor %}
+  </ul>
+
+  <div class="tab-content">
+    {% for item in dictRiceList3 %}
+    <div id="{{item[2]}}" class="tab-pane fade">
+      <h3>{{item[0]}}</h3>
+      <p>{{item[1] | nl2br}}</p>
+    </div>
+    {% endfor %}
+    <div id="home" class="tab-pane fade in active">		
+<br><p>Trzeci kurs składał się z 4 dwutygodniowych modułów. Ocena była obliczana według następujacych zasad, cytuję: </p>
+      <ol><li>A homework assignment (50% of the grade): This is a Coursera-style quiz, which focuses mainly on math and algorithms</li>
+      <li>A project (35% of the grade): This part requires you to write and submit Python code that builds on the skills you honed in the homework assignment, and which will be machine graded, and</li>
+      <li>An application (15% of the grade): This part uses the code you wrote in the project part to analyze data and discuss an application of the algorithmic parts you've learned. This part will be peer evaluated.</li></ol>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

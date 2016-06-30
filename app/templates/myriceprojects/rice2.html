@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Rice 2{% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <h3>Kurs średniozaawansowany</h3>
+  <ul class="nav nav-tabs">
+	<li class="active"><a data-toggle="tab" href="#home">Wstęp</a></li>  
+    {% for item in dictRiceList2 %}
+    <li><a data-toggle="tab" href="#{{item[2]}}">{{item[0]}}</a></li>
+    {% endfor %}
+  </ul>
+
+  <div class="tab-content">
+    {% for item in dictRiceList2 %}
+    <div id="{{item[2]}}" class="tab-pane fade">
+      <h3>{{item[0]}}</h3>
+      <p>{{item[1] | nl2br }}</p>
+      <p></p><a href="/static/{{item[2]}}.py" target="_blank">{{item[2]}}.py - sam kod</a></p>
+    </div>
+    {% endfor %}
+    <div id="home" class="tab-pane fade in active">
+      <br><p>Drugi kurs zawierał więcej matematyki. Programowanie stało się mniej zdarzeniowe, bardziej obliczeniowe. Projekty były sprawdzane również pod względem stylistycznym: "The machine-graders for this class will use a customized version of Pylint to check the style of your code. Pylint errors due to violations of the style guidelines will result in deductions from the final score for your mini-project."</p>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

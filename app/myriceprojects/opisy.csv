@@ -1,0 +1,44 @@
+<b>We want... a shrubbery!</b> był projektem którego celem było zapoznanie się kursanta z interfejsem kursu w zakresie wysyłania zadania do oceny. 
+Stąd wynika poziom trudności zadania.
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_NC3NzkgzzT_1.py">We want... a shrubbery! - do uruchomienia w Codeskulptor</a>
+
+Projekt <b>Rock-paper-scissors-lizard-Spock</b> polegał na implementacji uogólnienia znanej gry dziecięcej kamień-papier-nożyczki. Zadanie było uproszczone przez brak interaktywności w grze.
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_H5kCqG2y8j_0.py">Rock-paper-scissors-lizard-Spock- do uruchomienia w Codeskulptor</a>
+
+
+Projekt <b>Guess the number</b> game był pierwszym projektem z elementem interaktywnym. Komputer proponował rozgrywkę w dwóch wariantach losując liczbę z przedziału od zera do stu lub tysiąca. Gracz wpisując swoje strzały w pole otrzymał informację zwrotną czy dana liczba jest mniejsza, większa czy wreszcie równa wylosowanej co kończyło rundę. 
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_1KX1ZCZCMa_0.py">Guess the number - do uruchomienia w Codeskulptor</a>
+
+
+<b>Stopwatch: The Game</b> to projekt którego zadaniem było zaimplementowanie prostego stopera. Interfejs gry składał się z trzech przycisków: Start, Stop, Reset. Czas był mierzony z dokładnością do 0.1 sekundy. Naciśnięcie przycisku Stop na pełnej sekundzie dawało graczowi punkt. 
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_hZhWnA6kwl_0.py">Stopwatch: The Game - do uruchomienia w Codeskulptor</a>
+
+
+Projekt <b>Pong</b> to pierwszy z bardziej wymagających projektów. Jego celem było napisanie znanej ze starych konsol gry Pong. Klawisze góra-dół dla lewej paletki: 'W','S' dla prawej: kursory góra-dół. 
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_QS18VJeyAY_0.py">Pong - do uruchomienia w Codeskulptor</a>
+
+
+Projekt <b>Memory</b> polegał na napisaniu gry ćwiczącej pamięć. Najtrudniejszym elementem projektu było precyzyjne zaprogramowanie zmian stanów w grze. 
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_mbL6ASfkC4_0.py">Memory - do uruchomienia w Codeskulptor</a>
+
+
+Projekt <b>Blackjack</b> polegał na napisaniu gry karcianej. Było to pierwsze zadanie wykorzystujące elementy programowania obiektowego. Przycisk <b>Hit</b> rozdaje nową kartę, przycisk <b>Stand</b>  zatrzymuję grę i następuje liczenie punktów. 
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_3aXJb248rJ_0.py">Blackjack - do uruchomienia w Codeskulptor</a>
+
+
+Projekt <b>Spaceship</b> był początkiem wielkiego finału kursu i wstępem do napisania projektu Asteroids. Zadanie polegało na napisaniu szeregu metod dzięki którym statek płynnie poruszał się po ekranie w reakcji na sygnały z klawiatury. 
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_h6kN4dTjfJ_0.py">Spaceship - do uruchomienia w Codeskulptor</a>
+
+
+Projekt <b>RiceRocks</b> to dokończenie poprzedniego projektu. Nawiązywał do słynnej gry strzelanki z zamierzchłej przeszłości. Statek oprócz płynnych ruchów strzelał do wyłaniających się w losowych miejscu i czasie zagrożeń. Zniszczenie obiektu objawiało się zmianą grafiki i dźwięku. Strzelanie - klawisz spacji, kursory - ruch statku. 
+
+<a target="_blank" href="http://www.codeskulptor.org/#user41_YTKdyvTD3b_0.py">RiceRocks - do uruchomienia w Codeskulptor</a>
+
